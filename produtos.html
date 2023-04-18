@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./img/logocars.png" width="150px" alt="">
+        </div>
+        <nav class="menu">
+            <ul class="links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#cards">Produtos</a></li>
+                <li><a href="#contact">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="transaction">
+            <table id="data-table"> <!--criação de uma tabela-->
+                <thead> <!--cabeçalho da tabela-->
+                    <tr> <!--linha do cabeçalho-->
+                        <th>Entidade</th>
+                        <th>Descrição</th>
+                        <th>Ano</th>
+                    </tr>
+                </thead>
+
+                <tbody> <!--corpo da tabela-->
+                    <tr>
+                        <td class="description">McQueen</td>
+                        <td class="expense">Carro de corrida</td>
+                        <td class="date">2006</td>
+                    </tr>
+                    <tr>
+                        <td class="description">Tow Mater</td>
+                        <td class="income">Haulital Hook'em</td>
+                        <td class="date">1995</td>
+                    </tr>
+                    <tr>
+                        <td class="description">Chick Hicks</td>
+                        <td class="expense">Shyster Cremlin</td>
+                        <td class="date">1979</td>
+                    </tr>
+                    <tr>
+                        <td class="description">Sally Carrera</td>
+                        <td class="expense">Porsche 911 Carrera</td>
+                        <td class="date">2002</td>
+                    </tr>
+                    <tr>
+                        <td class="description">Doc Hudson</td>
+                        <td class="expense">Hudson Hornet</td>
+                        <td class="date">1951</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <div class="socialMedia">
+            <div class="mediaAlign">
+                <img src="./img/instagram.svg" alt="">
+                <img src="./img/linkedin.svg" alt="">
+                <img src="./img/whatsapp.svg" alt="">
+            </div>
+        </div>
+        <h3>Copyright © Todos os Direitos Reservados</h3>
+    </footer>
+</body>
+</html>

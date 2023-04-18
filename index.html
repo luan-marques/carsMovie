@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARS</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="./img/logocars.png" width="150px" alt="">
+        </div>
+        <nav class="menu">
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#cards">Produtos</a></li>
+                <li><a href="#contact">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="carousel">
+            <div class="img-container">
+                <img src="./img/lightning-mcqueen-cars-movie-wallpaper-preview.jpg" alt="">
+                <img src="./img/Mater.jpg" alt="">
+                <img src="./img/Chick Hicks.jpg" alt="">
+            </div>
+
+            <div class="btn btn-left">
+                <ion-icon class="icon" name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="btn btn-right">
+                <ion-icon class="icon" name="chevron-forward-outline"></ion-icon>
+            </div>
+        </section>
+
+        <section id="cards">
+            <div class="card">
+                <img class="photo" src="./img/sally carrera.jpg" alt="">
+                <div class="text">
+                    <h3>Sally Carrera</h3>
+                    <li>Porsche 911 Carrera 2002</li>
+                    <li>Proprietária do Cosy Cone Motel</li>
+                    <li>Advogada de Radiator Springs</li>
+                    <a href="./produtos.html"><button>Saiba mais</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="photo" src="./img/doc-hudson.jpg" alt="">
+                <div class="text">
+                    <h3>Doc Hudson</h3>
+                    <li>Hudson Hornet 1951</li>
+                    <li>Era médico e juiz de Radiator Springs</li>
+                    <li>Era chefe da equipe de Relâmpago McQueen</li>
+                    <a href="./produtos.html"><button>Saiba mais</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="photo" src="./img/guido.jpg" alt="">
+                <div class="text">
+                    <h3>Guido</h3>
+                    <li>Empilhadeira Alza/Tutto</li>
+                    <li>Trocador de pneus mais rápido do oeste</li>
+                    <li>Funcionário e auxiliar de Luigi na Casa Della Pneus</li>
+                    <a href="./produtos.html"><button>Saiba mais</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="depoiment">
+            <div class="depoimentText">
+                <h2><em>Depoimentos</em></h2>
+                <div class="linebreak">
+                    <p>“Antigamente os carros não dirigiam pra ganhar tempo, dirigiam pra aproveitar o tempo.”</p>
+                    <p>“Estamos fazendo história.”</p>
+                    <p>“Eu provoco nos carros os instintos mais primitivos… blá-blá-blá.”</p>
+                    <p>“KATCHAU!”</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="formap">
+            <div class="contact-in">
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.254943966584!2d-117.92118822487367!3d33.805733373250824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7dbdc37a0b7%3A0x2e5e099e3e552284!2sRadiator%20Springs%20Curios!5e0!3m2!1sen!2sbr!4v1681762420824!5m2!1sen!2sbr"
+                        width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-form">
+                    <h1>Encontre-nos</h1>
+                    <form>
+                        <input type="text" placeholder="Nome" class="contact-form-txt">
+                        <input type="text" placeholder="Email" class="contact-form-txt">
+                        <textarea placeholder="Mensagem" class="contact-form-textarea"></textarea>
+                        <input type="submit" name="Enviar" class="contact-form-button">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socialMedia">
+            <div class="mediaAlign">
+                <img src="./img/instagram.svg" alt="">
+                <img src="./img/linkedin.svg" alt="">
+                <img src="./img/whatsapp.svg" alt=""> 
+            </div>
+        </div>
+        <h3>Copyright © Todos os Direitos Reservados</h3>
+    </footer>
+
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+    </script>
+</body>
+
+</html>
