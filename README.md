@@ -1,7 +1,6 @@
 # Atividade da disciplina Desenvolvimento WEB
 
-- Instruções
-Utilizando um framework de sua escolha (Bootstrap, Foundation, Material Design), seguindo o modelo: https://www.figma.com/proto/leYpegr30BqvG3nw0RYX7P/Site-Modelo?page-id=0%3A1&node-id=1-2&viewport=361%2C123%2C0.24&scaling=contain&starting-point-node-id=1%3A2
+- Utilizando um framework de sua escolha (Bootstrap, Foundation, Material Design), seguindo o modelo: https://www.figma.com/proto/leYpegr30BqvG3nw0RYX7P/Site-Modelo?page-id=0%3A1&node-id=1-2&viewport=361%2C123%2C0.24&scaling=contain&starting-point-node-id=1%3A2.
 Deve conter no site:
 Menu
 Slide
